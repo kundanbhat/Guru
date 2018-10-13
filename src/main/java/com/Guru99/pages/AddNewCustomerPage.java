@@ -91,6 +91,7 @@ public class AddNewCustomerPage extends TestBase{
 			Alert alert=driver.switchTo().alert();
 			result.success=false;
 			result.message=alert.getText();
+			System.out.println("hi");
 			alert.accept();
 			isAlertExist=true;
 		}
